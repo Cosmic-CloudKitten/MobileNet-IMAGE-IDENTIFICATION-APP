@@ -1,60 +1,46 @@
-body{
-    font-family: 'Satisfy', cursive;
-    background:lightblue;
-}
-.header_div{
-    background: lightpink;
-    color: indigo;
-}
-.header_div img{
-    width: 100px;
-}
-.main_div{
-    background: lightgoldenrodyellow;
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    float:none;
     padding:10px;
-    margin-top: 15px;
-    border: 3px solid hotpink;
-}
-.main_div label{
-    background: lavender;
-    width: 310px;
-    padding: 10px;
-    margin-bottom: 0px;
-    box-shadow: 5px 5px 18px lightcyan;
-}
-#camera, #result{
-border: 2px solid pink;
-width: 310px;
-height:300px;
-box-shadow: 5px 5px 18px yellow;
-}
-.main_div button{
-    width:310px;
-font-size: 16px;
-box-shadow: 5px 5px 18px fuchsia;
-border: 1px solid;
-}
-
-.footer_div{
-    margin-bottom: 50px;
-}
-
-.footer_div h4{
-    background: lavender;
-    border-radius: 10px;
-    padding: 5px;
-    box-shadow: 5px 5px 18px yellow;
-}
-
-.footer_div img{
-    width: 70px;
-}
-
-.copy_right_footer {
-    position: fixed;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .result_para_tag span{
+    white-space: pre-line;
+  }
+  .copy_right_footer{
+    position:fixed;
     color:white;
-    bottom: 0px;
-    background-color: hotpink;
+    bottom:0;
+    width: 100%;
     line-height: 3;
+    background-color: grey;
     text-align: center;
-}
+  }
+
+  canvas{
+border: 5px solid white;
+border-radius: 20px;
+box-shadow: 5px 5px 5px grey;
+margin: 160px;
+  }
+  
+ 
